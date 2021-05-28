@@ -2,7 +2,6 @@
 
 Implements particle systems using openGL
 
-TODO: Add a representative image for your project here
 
 ## How to build
 
