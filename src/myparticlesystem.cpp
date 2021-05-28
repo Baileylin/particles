@@ -12,7 +12,13 @@ using namespace glm;
 
 void MyParticleSystem::createParticles(int size) 
 {
-   mTexture = theRenderer.loadTexture("../textures/particle.png");
+   mTexture = theRenderer.loadTexture("../textures/ParticleFireCloud.png");
+   for (int i = 0; i < size; i++)
+   {
+	   
+	   Particle particle = { random_unit_cube(),random_unit_vector(), vec4(vec3(random_float(),random_float(),random_float()), 1.0), 0.07, random_float() };
+	   mParticles.push_back(particle);
+   }
 }
 
 void MyParticleSystem::update(float dt)

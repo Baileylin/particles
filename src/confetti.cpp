@@ -22,8 +22,6 @@ void Confetti::createParticles(int size)
 
 void Confetti::update(float dt)
 {
-
-
 	for (int i = 0; i < mParticles.size() - 1; i++)
 	{
 
