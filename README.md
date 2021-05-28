@@ -47,4 +47,8 @@ particles/build $ ../bin/demo
 
 ## Results
 
-TODO: Show your work
+### Billboard Image
+<img src='./gifs/billboard.gif'  width='550' />
+
+### Confetti Image
+<img src='./gifs/confetti.gif'  width='550' />
